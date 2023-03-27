@@ -283,7 +283,7 @@ img {
 
 /*==================== HOME ====================*/
 
-.home__container{
+.F{
   gap:1rem;
   
 }
@@ -423,11 +423,11 @@ img {
 }
 
 /*==================== ABOUT ====================*/
-.about__img{
-  width: 200px;
-  height: 300px;
+.home-img{
+  width: 15rem;
+  /* height: 300px; */
   object-fit: cover;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   justify-self: center;
   align-self: center;
 }
