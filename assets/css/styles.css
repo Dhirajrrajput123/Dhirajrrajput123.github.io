@@ -136,6 +136,7 @@ a {
   text-decoration: none;
 }
 
+
 img {
   max-width: 100%;
   height: auto;
@@ -373,6 +374,22 @@ img {
 
 #user-detail-intro{
 
+}
+
+/* =====================================================resume=============================== */
+#resume-button-1{
+  background-color: rgb(214, 183, 194);
+  border: none;
+  font-size: 1rem;
+  font-family: sans-serif; 
+
+}
+
+
+#resume-button-2{
+  border: none;
+  font-size: 1rem;
+  background-color: rgb(207, 198, 201);
 }
 /*==================== BUTTONS ====================*/
 .button{
@@ -1187,7 +1204,7 @@ img {
   }
 
   .section{
-    padding: 6rem 0 2rem;
+    padding: 0rem 0 0rem;
   }
 
   .section__subtitle{
@@ -1568,7 +1585,7 @@ img {
 
 
 section {
-  padding: 50px 10%;
+  padding: 85px 10%;
 }
 
 
@@ -1608,6 +1625,7 @@ header.shadow {
   color: var(--text-color);
   font-weight: 500;
 }
+
 
 .navbar a:hover {
   color: var(--first-color)
