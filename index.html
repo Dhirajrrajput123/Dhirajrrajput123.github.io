@@ -53,14 +53,20 @@
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a
+        <li>
+          <!-- <a
                 id="resume-button-1"
                 download=""
                 href="/assets/pdf/Dhiraj-Kumar-Resume.pdf"
                 onclick="window.open('https://drive.google.com/file/d/1DRYccM2mGWqzOGdaem95zbjdDmY24iuU/view?usp=sharing')"
               >
                 <i class="uil uil-message nav__icon"></i> Resume
-              </a></li>
+              </a> -->
+
+              <button id="resume-button-1" onclick="window.open('https://drive.google.com/file/d/1DRYccM2mGWqzOGdaem95zbjdDmY24iuU/view?usp=sharing')">
+                <a href="/assets/pdf/Dhiraj-Kumar-Resume.pdf" download id="resume-link-1"> Download Resume<i class="uil uil-folder-download button__icon"></i></a>
+                </button>
+            </li>
       </ul>
 
     </header>
@@ -126,10 +132,10 @@
         <h2 class="section__title">About Me</h2>
         <span class="section__subtitle">My Introduction</span>
 
-        <div class="about__container container">
+        <div class="about__container about container">
 
           <div class="about__data">
-            <p class="about__description"  id="user-detail-intro">
+            <p class="about__description section"  id="user-detail-intro">
               Dedicated and detail-oriented Java Backend Developer. Strong in design and integration with 
               intuitive problem-solving skills, Java, JavaScript, HTML and CSS. Eager to apply business requirements into technical solutions. 
               Looking to start career as a JAVA Backend Developer in a reputed firm driven by technology.
@@ -219,15 +225,18 @@
       <!-- =============================resume============================== -->
       <section class="nav-link resume" id="resume">
         <div class="about__buttons" >
-          <a
+          <!-- <a
             id="resume-button-2"
             download=""
             href="/assets/pdf/Dhiraj-Kumar-Resume.pdf"
             class="button button--flex"
             onclick="window.open('https://drive.google.com/file/d/1DRYccM2mGWqzOGdaem95zbjdDmY24iuU/view?usp=sharing')"
-          >
-            Download Resume<i class="uil uil-folder-download button__icon"></i>
-          </a>
+          > -->
+          <button id="resume-button-2" onclick="window.open('https://drive.google.com/file/d/1DRYccM2mGWqzOGdaem95zbjdDmY24iuU/view?usp=sharing')">
+          <a href="/assets/pdf/Dhiraj-Kumar-Resume.pdf" download id="resume-link-2"> Download Resume<i class="uil uil-folder-download button__icon"></i></a>
+          </button>
+           
+          <!-- </a> -->
         </div>
       </section>
 
