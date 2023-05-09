@@ -126,6 +126,7 @@ body {
 h1, h2, h3, h4 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
+  /* padding-top: 5rem; */
 }
 
 ul {
@@ -145,6 +146,7 @@ img {
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
   padding: 2rem 0 4rem;
+  padding-top: 5rem;
 }
 
 .section__title {
@@ -1205,6 +1207,7 @@ img {
 
   .section{
     padding: 0rem 0 0rem;
+    padding-top: 5rem;
   }
 
   .section__subtitle{
@@ -1586,6 +1589,7 @@ img {
 
 section {
   padding: 85px 10%;
+  padding-top: 5rem;
 }
 
 
@@ -1952,6 +1956,7 @@ form textarea {
 
   section {
     padding: 50px 4%;
+    padding-top: 5rem;
   }
 }
 
