@@ -270,7 +270,7 @@ let tech_stacks = [
   {
     tech_name: "Postman",
     img_link:
-      "https://seeklogo.com/images/P/postman-logo-F43375A2EB-seeklogo.com.png",
+      "https://www.svgrepo.com/show/306590/postman.svg",
   },
 
   {
