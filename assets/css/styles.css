@@ -146,7 +146,7 @@ img {
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
   padding: 2rem 0 4rem;
-  padding-top: 5rem;
+  /* padding-top: 5rem; */
 }
 
 .section__title {
@@ -863,6 +863,11 @@ img {
 
 /*==================== PROJECT IN MIND ====================*/
 
+#projects {
+  margin: 1rem;
+  
+}
+
 .project{
   text-align: center;
 
@@ -1207,7 +1212,8 @@ img {
 
   .section{
     padding: 0rem 0 0rem;
-    padding-top: 5rem;
+    
+    /* padding-top: 5rem; */
   }
 
   .section__subtitle{
@@ -1589,7 +1595,7 @@ img {
 
 section {
   padding: 85px 10%;
-  padding-top: 5rem;
+  /* padding-top: 5rem; */
 }
 
 
@@ -1956,7 +1962,7 @@ form textarea {
 
   section {
     padding: 50px 4%;
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
   }
 }
 
